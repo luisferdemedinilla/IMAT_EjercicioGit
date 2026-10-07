@@ -17,10 +17,18 @@
         }
         public static int Divide(int x, int y)
         {
+            if (y == 0)
+            {
+                Console.WriteLine("No se puede divir entre 0");
+                return 0;
+            }
+            
             return x / y;
+                
+            }
         static int Subtract(int x, int y)
         {
-            return x-y
+            return x-y;
         }
     }
      
